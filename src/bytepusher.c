@@ -1,5 +1,7 @@
 #include "bytepusher.h"
 
+uint8_t memory[MEMORY_SIZE];
+
 void initBytePusher(){
     memset(memory, 0, MEMORY_SIZE);
 }

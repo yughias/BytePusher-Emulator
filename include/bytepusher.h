@@ -9,7 +9,7 @@
 #define BYTEPUSHER_W    256
 #define BYTEPUSHER_H    256
 
-uint8_t memory[MEMORY_SIZE];
+extern uint8_t memory[MEMORY_SIZE];
 
 void initBytePusher();
 void loadROM(const char*);
